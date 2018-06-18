@@ -10,7 +10,7 @@ This is useful for checking if any files are corrupted in your windows installat
 
 ## How to Use?
 
-First run `SFC /VerifyOnly` in an elevated command prompt to generate a CBS logfile in <WINDIR>/Logs/CBS/CBS.log.
+First run `SFC.exe /VerifyOnly` in an elevated command prompt to generate a CBS logfile in %WINDIR%/Logs/CBS/CBS.log.
 
 Then simply run `python CBSFind.py` which will then generate a cbs_finder.out.txt file containing only strings which show system file corruptions (a small portion of the total CBS.log file).
 

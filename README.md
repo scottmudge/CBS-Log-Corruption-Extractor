@@ -1,4 +1,4 @@
-# CBS-Log-Corruption-Extractor
+# CBS Log Corruption Extractor
 
 ## What it Does
 
